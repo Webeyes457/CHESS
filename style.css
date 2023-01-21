@@ -1,0 +1,38 @@
+body{
+    background-image: url(/img/Background.jpg);
+}
+div{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top:40px;
+    border: 10px double black;
+}
+table td{
+   
+    width: 50px;
+    height: 40px;
+    margin: 0% ;
+    text-align: center;
+}
+.white :nth-child(even){
+    background-color:black;
+}
+.black :nth-child(odd){
+    background-color: black;
+}
+.color{
+    color:aliceblue;
+}
+.co{
+    background-color: aliceblue;
+}
+
+table tr td:hover{
+    background-color:darkorange;
+}
+table tr td:hover{
+    color:brown;
+}
+
+
